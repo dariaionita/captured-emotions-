@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ioniță Daria-Elena">
+    <meta name="description"
+        content="Organizație Non-Guvernamentală din Cluj care promovează exprimarea trăirilor intense prin artă.">
+    <meta name="keywords" content="Hub cultural Cluj, cursuri de muzică, cursuri de arte vizuale, spectacol, proiect">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captured Emotions</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Anaheim", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            background-color: rgb(12, 24, 33);
+        }
+
+        nav {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .c-item {
+            height: 480px;
+        }
+
+        .c-img {
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.3);
+        }
+
+        .img-dep {
+            display: flex;
+            width: fit-content
+        }
+
+        .logo {
+            width: 3%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .fixed-img {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+            object-fit: cover;
+        }
+        .bg-dep {
+            background-color:rgb(27, 42, 65) ;
+        }
+
+        .bg-contact {
+            background-color: rgb(27, 42, 65);
+
+        }
+
+        .bg-proiecte {
+            background-color: rgb(12, 24, 33);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="logo1.png" alt="Captured Emotions Logo" width="40" height="40"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#despre">Despre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#departamente">Departamente</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proiecte">Proiecte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-black text-white text-center py-5">
+        <div id="hero-carousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="bg.jpg" class="d-block w-100 c-img" alt=" background cu luminițe blurate">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Captured Emotions</h1>
+                        <p>Capturează momentul, exprimă emoția.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="music1.jpg" class="d-block w-100 c-img"
+                        alt="bărbat care cântă la chitară electrică cu lumini reci si fum.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Inspirație</h2>
+                        <p>Creează fără limite, trăiește fără rețineri.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="coreg1.jpeg" class="d-block w-100 c-img"
+                        alt="grup de persoane care fac repetiții pentru o coregrafie.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Eliberare</h2>
+                        <p>Trăiește, creează, inspiră.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="jam1.jpg" class="d-block w-100 c-img" alt="grup de oameni care așteaptă">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Experiență</h2>
+                        <p>Fiecare emoție are o poveste. Spune-o prin artă.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="sunet1.jpg" class="d-block w-100 c-img" alt="echipament de sunet la un evenimet">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Aprofundare</h2>
+                        <p>Transformă trăirile în artă, iar arta în conexiuni profunde.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="teatru1.jpg" class="d-block w-100 c-img" alt="piesă de teatru, trei actori pe scenă">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Exprimare</h2>
+                        <p>Fii vocea sentimentelor tale prin artă.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <section id="despre" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-white">Cine, ce, cum, când?</h2>
+            <p class="text-center text-white">
+                Într-o lume tot mai conectată digital, dar tot mai distantă emoțional, a existat mereu o nevoie profundă
+                de a crea spații unde oamenii să se regăsească, să-și împărtășească emoțiile și să-și exprime
+                creativitatea. Astfel, „Captured Emotions” a luat naștere din dorința de a răspunde unei întrebări
+                simple, dar esențiale: „Cum putem reda frumusețea și complexitatea emoțiilor umane prin artă?”
+            </p>
+            <p class="text-center text-white">
+                Misiunea noastră este să inspirăm și să sprijinim artiștii de toate vârstele și nivelurile de experiență
+                să își
+                găsească propria voce artistică. Credem că arta este un limbaj universal care poate conecta oamenii și
+                poate
+                aduce schimbări pozitive în societate.
+
+            </p>
+            <p class="text-center text-white">
+                În 2020, pe fondul unei pandemii globale care a adus izolare și nesiguranță, „Captured Emotions” a
+                fost înființat cu scopul de a deveni un hub artistic unde oamenii să-și poată explora și exprima
+                emoțiile prin diverse forme de artă. Primele întâlniri s-au desfășurat într-un spațiu modest, o sală
+                industrială din fosta fabrică Carbochimice, un loc simbolic care, la rândul său, căuta o „renaștere”.
+            </p>
+            <p class="text-center text-white">
+                ONG-ul s-a dezvoltat rapid, atrăgând artiști din toată țara și comunități dornice să participe la
+                cursuri de artă vizuală, muzică, literatură și teatru. Proiecte precum „Feel” și „Focus” au devenit
+                repere pentru colaborarea interdisciplinară, iar transformarea fostei fabrici Carbochimice într-un hub
+                artistic a atras atenția presei și sprijinul local.
+            </p>
+            <h3 class="text-center text-white"> Scop final</h3>
+            <p class="text-center text-white"> Povestea emblematică a ONG-ului este legată de un scop final îndrăzneț:
+                <strong>crearea unei mini-serii
+                    artistice
+                    care să îmbine talentele fiecărui departament</strong>. Această producție complexă urmează să fie
+                ecranizată,
+                marcând
+                colaborarea unică dintre muzicieni, actori, regizori, scriitori și artiști vizuali. Proiectul servește
+                ca o
+                celebrare a diversității artistice și a puterii emoțiilor transpuse în artă.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="departamente" class="py-5 bg-dep">
+        <h2 class="text-center text-white">Departamentele noastre</h2>
+        <div class="container">
+
+
+            <div class="container py-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="chitara.png" class="card-img-top"
+                                alt="ilustrație persoană care cântă la chitară.">
+                            <div class="card-body">
+                                <h3 class="card-title">Departamentul de Muzică</h3>
+                                <p class="card-text">Cursurile vor acoperi teoria muzicală, compoziția, și performanța.
+                                    Participanții
+                                    vor avea oportunitatea de a
+                                    crea muzică originală și de a colabora la coloana sonoră a mini seriei.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="teatru.png" class="card-img-top"
+                                alt="ilustrație doua persoane cu măști de teatru.">
+                            <div class="card-body">
+                                <h3 class="card-title">Departamentul de Teatru și Dans</h3>
+                                <p class="card-text">Acest departament va asigura performanțele actoricești și
+                                    coregrafia
+                                    scenelor din
+                                    mini serie.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="art.png" class="card-img-top" alt="ilustrație persoană care se uită la un tablou">
+                            <div class="card-body">
+                                <h3 class="card-title">Departamentul de Arte Vizuale</h3>
+                                <p class="card-text">Participanții vor învăța tehnici fundamentale și avansate,
+                                    experimentând cu
+                                    diferite stiluri și medii.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="audio1.png" class="card-img-top" alt="ilustrație persoană care reglează sunetul.">
+                            <div class="card-body">
+                                <h3 class="card-title">Departamentul de Film și Regie</h3>
+                                <p class="card-text">Participanții vor învăța despre producția de film, regie, editare
+                                    și
+                                    cinematografie. Acest departament va fi
+                                    responsabil pentru filmarea și montajul mini seriei finale.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="lit.png" class="card-img-top"
+                                alt="ilustrație persoană care ține în mână un creion mare">
+                            <div class="card-body">
+                                <h3 class="card-title">Departamentul de Literatură</h3>
+                                <p class="card-text">Fiecare cursant va explora scrierea creativă, dramaturgia și
+                                    scenaristica.
+                                    Echipele
+                                    vor lucra împreună
+                                    pentru a
+                                    dezvolta scenariul mini serii, aducând povestea la viață prin cuvinte, metafore si
+                                    simboluri.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="proiecte" class="py-5 bg-proiecte">
+        <div class="container">
+            <h2 class="text-center text-white">Proiecte</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="focus.jpg" class="card-img-top fixed-img" alt="Poster mini serie">
+                        <div class="card-body">
+                            <h5 class="card-title">"Focus"</h5>
+                            <p class="card-text">"Focus" si își propune să aducă împreună diverse forme de artă într-o
+                                experiență creativă unică. Acest proiect include departamente reprezentative pentru
+                                diferite expresii
+                                artistice
+                                și culminează cu realizarea unei mini serii de către participanții cursurilor, care va
+                                fi ulterior
+                                ecranizată.
+                                Scopul
+                                proiectului este de a promova colaborarea interdisciplinară și de a oferi o formă de
+                                exprimare artistică
+                                variată..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="feel.png" class="card-img-top fixed-img" alt="poster expozitie captured emotiones">
+                        <div class="card-body">
+                            <h5 class="card-title">"Feel"</h5>
+                            <p class="card-text">"Feel" este o expoziție complexă care combină artele vizuale, unde toți
+                                participanții au ocazia de a-și
+                                expune
+                                lucrările și de a-și împărtăși gândurile, sentimentele, temerile, talentul și experiența
+                                cu publicul
+                                larg.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="planning.jpg" class="card-img-top fixed-img" alt="Imagine organizare a proiectului.">
+                        <div class="card-body">
+                            <h5 class="card-title">"Carbochimia Artistică"</h5>
+                            <p class="card-text">Carbochimia Artistică" este un proiect foarte ambițios care își propune
+                                să transforme <a
+                                    href=" https://www.transilvaniabusiness.ro/2024/04/10/carbochim-de-la-fosta-platforma-industriala-la-o-zona-vibranta-a-orasului-cluj-napoca/"
+                                    target="_blank">fosta
+                                    fabrică
+                                    carbochimică</a>
+                                într-un hub artistic vibrant și multifuncțional. Situată într-o zonă industrială cu un
+                                bogat trecut
+                                istoric,
+                                această fabrică va deveni un centru dedicat artei și creativității, oferind un spațiu
+                                unde artiștii și
+                                comunitatea se pot întâlni, colabora și inspira reciproc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-5 bg-contact">
+        <div class="container text-center text-white">
+            <h2>Contact</h2>
+            <p>Adresă: Strada Fabrica de Pensule, nr. 10, Cluj-Napoca, Cluj, România</p>
+            <p>Telefon: +40 123 456 789</p>
+            <p>Email: info@carbochimiaartistica.ro</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+
+        <div class="container text-center">
+            <p>Conectează-te cu noi pe rețelele sociale:</p>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="facebook.png" alt="Facebook icon" style="width: 40px; margin-right: 10px;">
+                </a>
+
+                <a href="https://www.instagram.com/blub__25/profilecard/?igsh=eTdvbGp3enNmcGN5" target="_blank">
+                    <img src="instagram.png" alt="Instagram icon" style="width: 40px; margin-right: 10px;">
+                </a>
+
+            </div>
+            <p class="mt-3">© 2024 Capture Your Emotions. Toate drepturile rezervate.</p>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
